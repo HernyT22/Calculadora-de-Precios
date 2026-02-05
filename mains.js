@@ -1,3 +1,4 @@
+
 let content = document.getElementById('container');
 document.getElementById('btn-calcular').addEventListener('click', () => {
    
@@ -39,3 +40,5 @@ function roundPrice(value){
     resultBox.innerHTML = `<h1 class="title-PV">Precio de Venta</h1>
                             <h2>$${salePrice.toFixed(2)}</h2>`;
 });
+
+console.log('EL JS YA ESTÁ CARGADO!')
